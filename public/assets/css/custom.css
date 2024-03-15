@@ -1,0 +1,137 @@
+/* Navbar background color */
+.navbar {
+    background-color: #343a40;
+}
+.navbar-brand {
+    color: #fff;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-nav .nav-link:hover {
+    color: #8b0000;
+}
+.dropdown-menu {
+    background-color: #343a40;
+}
+.dropdown-menu .dropdown-item {
+    color: #fff;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #8b0000;
+    color: #fff;
+}
+.form-control {
+    background-color: #fff;
+    color: #343a40;
+}
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Footer CSS */
+.footer-area{
+    padding: 40px 0px;
+    background-color: #333;
+    color: #fff;
+}
+.footer-area a{
+    text-decoration: none;
+}
+.footer-area .footer-heading{
+    font-size: 24px;
+    color: #fff;
+}
+.footer-area .footer-underline{
+    height: 1px;
+    width: 70px;
+    background-color: #ddd;
+    margin: 10px 0px;
+}
+.copyright-area{
+    padding: 14px 0px;
+    background-color: #fff;
+}
+.copyright-area p{
+    margin-bottom: 0px;
+    color: #fff;
+}
+.copyright-area .social-media{
+    text-align: end;
+}
+.copyright-area .social-media a{
+    margin: 0px 10px;
+    color: #fff;
+    width: 20px;
+}
+
+
+/* Movie CSS */
+.movie-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+.movie-card-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+.movie-card-body {
+    padding: 20px;
+}
+.movie-card-body h5 {
+    margin-top: 0;
+    font-size: 18px;
+}
+.movie-card-body p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+}
+.movie-card-body h5,
+.movie-card-body p {
+    text-decoration: none;
+}
+
+/* Movie View */
+.movie-details {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+.movie-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.movie-details h4 {
+    margin-top: 0;
+}
+.movie-details p {
+    margin: 0;
+    padding: 5px 0;
+}
+.movie-details .card {
+    margin-top: 20px;
+}
+.movie-details .card-header {
+    background-color: #fff;
+}
+.movie-details .card-body {
+    padding: 20px;
+}
